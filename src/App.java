@@ -1,7 +1,8 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws HeadlessException {
         JFrame window = new JFrame("Demo Window");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

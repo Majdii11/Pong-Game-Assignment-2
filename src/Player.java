@@ -48,7 +48,7 @@ public class Player extends Sprite {
     }
 
     public void handleCollision(Sprite other) {
-        if(other.getClass().equals(Wall.class)) {
+        if(other.getClass().equals(Ball.class)) {
             Point previousPos = new Point(pos.x - (int)dx, pos.y - (int)dy);
 
             if(dx > 0 && previousPos.x + size.width <= other.getTopLeft().x) {
