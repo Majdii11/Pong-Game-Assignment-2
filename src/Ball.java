@@ -18,10 +18,17 @@ public class Ball extends Sprite {
         // Reset the ball's velocity
         // It should randomly move up left, up right, down left, or down right
         // At first, make it move in one direction and add randomness later
+        vx = BALL_SPEED;
+        vy = BALL_SPEED;
     }
 
     @Override
     public void tick() {
+        pos.translate((int) vx, (int) vy);
+
+
+        pos.x = Math.clamp(pos.x, 0, BOARD_WIDTH - BALL_WIDTH);
+        pos.y = Math.clamp(pos.y, 0, BOARD_HEIGHT - BALL_HEIGHT);
         // Move the ball based on vx and vy
         // Look at Player.java for inspiration
     }

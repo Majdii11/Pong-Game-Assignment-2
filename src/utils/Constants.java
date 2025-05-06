@@ -7,8 +7,8 @@ public final class Constants {
     }
 
     // Board constants
-    public static final int BOARD_WIDTH = 640;
-    public static final int BOARD_HEIGHT = 480;
+    public static final int BOARD_WIDTH = 800;
+    public static final int BOARD_HEIGHT = 800;
     // A delay of 25 milliseconds results in a frame rate of 45 FPS.
     public static final int TICK_DELAY = 25;
 
@@ -20,6 +20,7 @@ public final class Constants {
 
     // Wall constants
     public static final String BALL_IMAGE_PATH = "resources/ball.png";
-    public static final int BALL_WIDTH = 150;
-    public static final int BALL_HEIGHT = 150;
+    public static final int BALL_WIDTH = 50;
+    public static final int BALL_HEIGHT = 50;
+    public static final int BALL_SPEED = 5;
 }

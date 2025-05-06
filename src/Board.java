@@ -19,7 +19,7 @@ public class Board extends JPanel implements ActionListener, KeyListener {
 
     public Board() {
         setPreferredSize(new Dimension(BOARD_WIDTH, BOARD_HEIGHT));
-        setBackground(Color.GRAY);
+        setBackground(Color.blue);
 
         player = new Player();
         Ball ball = new Ball();
