@@ -7,7 +7,7 @@ public final class Constants {
     }
 
     // Board constants
-    public static final int BOARD_WIDTH = 800;
+    public static final int BOARD_WIDTH = 900;
     public static final int BOARD_HEIGHT = 800;
     // A delay of 25 milliseconds results in a frame rate of 45 FPS.
     public static final int TICK_DELAY = 25;

@@ -29,7 +29,6 @@ public class Ball extends Sprite {
 
         pos.x = Math.clamp(pos.x, 0, BOARD_WIDTH - BALL_WIDTH);
         pos.y = Math.clamp(pos.y, 0, BOARD_HEIGHT - BALL_HEIGHT);
-        // Move the ball based on vx and vy
-        // Look at Player.java for inspiration
+
     }
 }

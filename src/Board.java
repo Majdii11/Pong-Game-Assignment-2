@@ -24,7 +24,7 @@ public class Board extends JPanel implements ActionListener, KeyListener {
         player = new Player();
         Ball ball = new Ball();
         sprites = new ArrayList<>(List.of(ball));
-
+//
         activeKeyCodes = new HashSet<>();
 
         new Timer(TICK_DELAY, this).start();

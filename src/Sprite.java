@@ -42,7 +42,7 @@ public abstract class Sprite {
     public Dimension getSize() {
         return size;
     }
-
+//
     public Point getTopLeft() {
         return pos;
     }
