@@ -6,7 +6,6 @@ public class Paddle {
     private int y;
     private final int width = 10, height = 100;
     private int yVelocity = 0;
-    private final double speed = 6.5;
     private final int upKey, downKey;
 
     public Paddle(int x, int y, int upKey, int downKey) {
@@ -28,6 +27,7 @@ public class Paddle {
     }
 
     public void keyPressed(KeyEvent e) {
+        int speed = 6;
         if (e.getKeyCode() == upKey) yVelocity = -speed;
         if (e.getKeyCode() == downKey) yVelocity = speed;
     }
